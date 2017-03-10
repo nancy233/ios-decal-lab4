@@ -24,6 +24,7 @@ class PokemonInfoViewController: UIViewController {
     var image: UIImage?
     var pokemon: Pokemon?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if let pokemon = pokemon {
@@ -67,7 +68,8 @@ class PokemonInfoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
+    
     /*
     // MARK: - Navigation
 
